@@ -45,7 +45,7 @@ func main() {
 		a.fish = append(a.fish, &fish{
 			name:     "seaweed",
 			position: image.Point{X: i, Y: termh - (3 + rand.Intn(2))}, // FIXME: use the bounding box of the sprite
-			sprite:   copySeaweed(seaweed),
+			sprite:   copySeaweed(),
 		})
 	}
 	a.draw(canvas)
