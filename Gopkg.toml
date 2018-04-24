@@ -1,0 +1,11 @@
+[[constraint]]
+  revision = "7cbfaac9e282b3ea0cefeddc67b2c3ed3aaf97bc"
+  name = "github.com/nsf/termbox-go"
+
+[[constraint]]
+  name = "github.com/stretchr/testify"
+  version = "1.2.1"
+
+[prune]
+  go-tests = true
+  unused-packages = true
